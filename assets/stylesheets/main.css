@@ -1,0 +1,153 @@
+/* my workspace stylesheet */
+nav {
+  display: inline-flex;
+  padding: 10px;
+  margin: 12px;
+  background-color: bisque;
+}
+.yt-logo {
+  text-align: left;
+}
+.yt-logo img {
+  height: 70px;
+  width: 200%;
+}
+.icons img {
+  border-radius: 50%;
+}
+.icons p {
+  text-align: right;
+  margin-left: 100px;
+  background-color: greenyellow;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+}
+.search {
+  margin-left: auto;
+}
+section {
+  display: flex;
+  margin-right: auto;
+}
+.main iframe {
+  margin: auto;
+  align: center;
+  height: 573px;
+  width: 1019px;
+}
+.main {
+  margin-left: 70px;
+  padding-bottom: 10px;
+  height: auto;
+}
+.description {
+  color: dimgray;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.view {
+  color: gray;
+  font-size: 20px;
+}
+.side-bar iframe {
+}
+.side-bar {
+  display: inline-flex;
+  margin: auto;
+  padding: 5px 15px;
+}
+.info {
+  display: block;
+  margin-left: 5px;
+  margin-right: auto;
+}
+.info h1, .subscribers-detail h2 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.info p, small, .subscribers-detail h2, .sub {
+  color: dimgray;
+  padding-bottom: 9px;
+}
+.subscribers {
+  padding: 15px;
+}
+.subscribers-image img {
+  border-radius: 50%;
+  height: 50px;
+}
+.subscribers-detail {
+  margin-left: 20px;
+  padding-right: 10px;
+}
+.subscribers-btn button {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  padding: 15px;
+  margin-right: 100px;
+}
+.comment {
+  display: grid;
+  padding-top: 5px;
+}
+.comment-count {
+  color: dimgray;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.comment-holder small {
+  margin: 16px;
+  color: floralwhite;
+  border-radius: 60%;
+  font-weight: bolder;
+  background-color: darkgreen;
+  padding: 15px;
+}
+.comment-holder input {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  height: 30px;
+  border-bottom: 1px solid #c0c0c0;
+  background-color: #F8F8FF;
+}
+.created-comment {
+  padding: 15px;
+}
+.comment-creator-image img {
+  border-radius: 50%;
+  height: 50px;
+}
+.comment-creator {
+  margin-left: 20px;
+  padding-right: 10px;
+}
+.comment-creator p {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.like-icon {
+  height: 30px;
+}
+.dislike-icon {
+  height: 20px;
+  margin-left: 12px;
+}
+.view-reply {
+  color: blue;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+hr {
+  color: #c0c0c0;
+}
+body {
+  background-color: #F8F8FF;
+}
+footer {
+  background-color: aquamarine;
+}

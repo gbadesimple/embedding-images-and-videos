@@ -3,28 +3,37 @@ nav {
   display: inline-flex;
   padding: 10px;
   margin: 12px;
-  background-color: bisque;
 }
 .yt-logo {
   text-align: left;
 }
-.yt-logo img {
-  height: 70px;
-  width: 200%;
-}
 .icons img {
+  height: 40px;
   border-radius: 50%;
 }
 .icons p {
   text-align: right;
-  margin-left: 100px;
+  float: right;
   background-color: greenyellow;
   font-size: 30px;
   font-weight: bold;
   font-family: arial;
 }
-.search {
-  margin-left: auto;
+.icons form {
+  margin-left: 100px;
+}
+.search input {
+  height: 40px;
+  border: 1px solid #c0c0c0;
+  color: #c0c0c0;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.mic {
+  margin-right: 40%;
+}
+button {
+  border: none;
 }
 section {
   display: flex;
@@ -51,7 +60,9 @@ section {
   color: gray;
   font-size: 20px;
 }
-.side-bar iframe {
+.side-bar img {
+  height: 150px;
+  width: 300px;
 }
 .side-bar {
   display: inline-flex;
@@ -151,7 +162,4 @@ hr {
 }
 body {
   background-color: #F8F8FF;
-}
-footer {
-  background-color: aquamarine;
 }

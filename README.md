@@ -1,4 +1,4 @@
-#Project: Embedding Images and Video
+# Project: Embedding Images and Video
 Following the Odin Project curriculum on HTML and CSS.
 
 It is a project that require you to draw on your new understanding of working with media by building YouTube’s video player page.

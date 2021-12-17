@@ -1,3 +1,15 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
 /* my workspace stylesheet */
 nav {
   display: inline-flex;
@@ -44,9 +56,10 @@ section {
   align: center;
   height: 573px;
   width: 1019px;
+  border-radius: 5px;
 }
 .main {
-  margin-left: 70px;
+  margin-left: 60px;
   padding-bottom: 10px;
   height: auto;
 }
@@ -63,11 +76,12 @@ section {
 .side-bar img {
   height: 150px;
   width: 300px;
+  border-radius: 5px;
 }
 .side-bar {
   display: inline-flex;
   margin: auto;
-  padding: 5px 15px;
+  padding: 0 0 10px 15px;
 }
 .info {
   display: block;
@@ -78,7 +92,10 @@ section {
   font-weight: bold;
   padding-bottom: 10px;
 }
-.info p, small, .subscribers-detail h2, .sub {
+.info p,
+small,
+.subscribers-detail h2,
+.sub {
   color: dimgray;
   padding-bottom: 9px;
 }
@@ -99,6 +116,7 @@ section {
   font-weight: bolder;
   padding: 15px;
   margin-right: 100px;
+  border-radius: 8px;
 }
 .comment {
   display: grid;
@@ -124,6 +142,9 @@ section {
   height: 30px;
   border-bottom: 1px solid #c0c0c0;
   background-color: #F8F8FF;
+}
+.comment-holder input:focus {
+  outline: none;
 }
 .created-comment {
   padding: 15px;
